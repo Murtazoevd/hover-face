@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    height: 200vh;
+    background-color: rgb(235, 235, 235);
+}
+
+.container .top,
+.container .toptwo,
+.container .center,
+.container .centertwo,
+.container .bottom{
+    width: 70%;
+    height: 200px;
+    /* border: 1px solid black; */
+    margin-left: 15%;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .top .ota,
+.container .top .ona,
+.container .top .bola,
+.container .toptwo .ota,
+.container .toptwo .ona,
+.container .toptwo .bola,
+.container .center .ota,
+.container .center .ona,
+.container .center .bola,
+.container .centertwo .ota,
+.container .centertwo .ona,
+.container .centertwo .bola,
+.container .bottom .ota,
+.container .bottom .ona{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .top .ota .box,
+.container .top .ona .box,
+.container .top .bola .box,
+.container .toptwo .ota .box,
+.container .toptwo .ona .box,
+.container .toptwo .bola .box,
+.container .center .ota .box,
+.container .center .ona .box,
+.container .center .bola .box,
+.container .centertwo .ota .box,
+.container .centertwo .ona .box,
+.container .centertwo .bola .box,
+.container .bottom .ota .box,
+.container .bottom .ona .box{
+    width: 130px;
+    height: 130px;
+    background-color: rgb(214, 214, 214);
+}
+
+.container .top .ota .box .boxtwo,
+.container .top .ona .box .boxtwo,
+.container .top .bola .box .boxtwo,
+.container .toptwo .ota .box .boxtwo,
+.container .toptwo .ona .box .boxtwo,
+.container .toptwo .bola .box .boxtwo,
+.container .center .ota .box .boxtwo,
+.container .center .ona .box .boxtwo,
+.container .center .bola .box .boxtwo,
+.container .centertwo .ota .box .boxtwo,
+.container .centertwo .ona .box .boxtwo,
+.container .centertwo .bola .box .boxtwo,
+.container .bottom .ota .box .boxtwo,
+.container .bottom .ona .box .boxtwo{
+    width: 130px;
+    height: 130px;
+    background-color: deepskyblue;
+    transition: 0.5s all;
+}
+
+.container .top .ota .box .boxtwo:hover{
+    transform: rotate(45deg);
+}
+
+.container .top .ona .box .boxtwo:hover{
+    transform: rotateX(45deg);
+}
+
+.container .top .bola .box .boxtwo:hover{
+    transform: rotateY(45deg);
+}
+
+.container .toptwo .ota .box .boxtwo:hover{
+    transform: rotateZ(45deg);
+}
+
+.container .toptwo .ona .box .boxtwo:hover{
+    transform: scale(2);
+}
+
+.container .toptwo .bola .box .boxtwo:hover{
+    transform: scaleX(2);
+}
+
+.container .center .ota .box .boxtwo:hover{
+    transform: scaleY(2);
+}
+
+.container .center .ona .box .boxtwo:hover{
+   transform: skew(45deg,45deg);
+}
+
+.container .center .bola .box .boxtwo:hover{
+    transform: skewX(45deg);
+}
+
+.container .centertwo .ota .box .boxtwo:hover{
+    transform: skewY(45deg);
+}
+
+.container .centertwo .ona .box .boxtwo:hover{
+    transform: translate(45px);
+}
+ 
+.container .centertwo .bola .box .boxtwo:hover{
+    transform: translateX(45px);
+}
+
+.container .bottom .ota .box .boxtwo:hover{
+    transform: translateY(45px);
+}
+
+.container .bottom .ona .box .boxtwo:hover{
+    transform: matrix(2,2,0,2,45,0);
+}
+
+
+ 
